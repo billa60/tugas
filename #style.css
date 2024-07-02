@@ -1,0 +1,38 @@
+nav{
+    background-color: brown;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: rgb(30, 91, 145);
+    color: rgb(80, 23, 34);
+}
+
+main{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: azure;
+    padding: 1; 
+}
